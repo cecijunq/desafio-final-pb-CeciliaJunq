@@ -34,6 +34,7 @@ class Questions extends Component {
         return (
             <>
                 <h2>Questions</h2>
+                <p>teste</p>
                 
                 {this.state.questions.map((question, index) => (
                     <div key={index}>
